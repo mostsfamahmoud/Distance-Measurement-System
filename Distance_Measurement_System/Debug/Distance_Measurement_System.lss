@@ -5336,7 +5336,7 @@ uint16 Ultrasonic_readDistance(void)
     236c:	cf 93       	push	r28
     236e:	cd b7       	in	r28, 0x3d	; 61
     2370:	de b7       	in	r29, 0x3e	; 62
-	/* Sending the trigger pulse by using Ultrasonic_Trigger function */
+	/* Sending the trigger pulse by using Ultrasonic_Trigger function	 */
 	Ultrasonic_Trigger();
     2372:	0e 94 da 10 	call	0x21b4	; 0x21b4 <Ultrasonic_Trigger>
 	   Distance = 17000 x (TIMER value) x 1 x 10^-6 cm
