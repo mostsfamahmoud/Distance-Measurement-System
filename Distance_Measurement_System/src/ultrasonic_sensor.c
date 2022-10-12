@@ -79,7 +79,7 @@ static void Ultrasonic_Trigger(void)
 */
 uint16 Ultrasonic_readDistance(void)
 {
-	/* Sending the trigger pulse by using Ultrasonic_Trigger function */
+	/* Sending the trigger pulse by using Ultrasonic_Trigger function	 */
 	Ultrasonic_Trigger();
 
 	/* Calculation (distance in cm)
