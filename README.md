@@ -26,7 +26,7 @@ sensor.
 
 ## UltraSonic (HC-SR04)
 
-# Programming
+### Programming
 1. ATmega32 microcontroller needs to transmit ***at least 10*** us trigger pulse to the HC-SR04 Trigger Pin.
 2. After getting a trigger pulse, HC-SR04 automatically sends eight 40 kHz sound waves and the microcontroller waits for rising edge output at the Echo pin.
 3. When the rising edge capture occurs at the Echo pin which is connected to an input of ATmega32, 
@@ -35,7 +35,7 @@ Start Timer of ATmega32 and again wait for a falling edge on the Echo pin.
 This time count is used to calculate the distance to an object.
 
         Note: Here we are using the Input Capture unit on PD6(ICP1) pin.
-# Distance Calculations
+### Distance Calculations
 Calculation (distance in cm)
 
      - Sound velocity = 340.00 m/s = 34000 cm/s
